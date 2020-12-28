@@ -1,0 +1,153 @@
+body{
+    background-color: #232b2b;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+h1{ 
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    color: white;
+    
+}
+
+#titre{
+    background-color: #232b2b;
+    padding-top: 1px; 
+    padding-bottom: 1px; 
+    border: 3px solid #000000; 
+    border-radius: 20% / 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 3%;
+    border-color: white;
+    
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+    
+p{
+    font-size: 28px;
+    color: white;
+}
+
+label{
+    font-size: 28px;
+    color: white;
+    
+}
+
+#explication{
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    border: 3px solid #000000; 
+    background: rgb(255,255,255);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 3%;
+    background-color: #232b2b;
+    border-color: white;
+}
+
+div{
+    margin-bottom: 10px;
+    
+}
+
+#divmot{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#dif{
+    margin-bottom: 10px;
+
+}
+
+
+#info{
+    font-size: 32px;
+    
+
+}
+
+#saisis{
+    text-align: center;
+
+}
+
+#form{
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    border: 3px solid #000000; 
+    background: rgb(255,255,255);
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #232b2b;
+    border-color: white;
+}
+
+#lettre{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#envoyer{
+    font-size: 20px;
+    border-radius: 20% / 50%;
+}
+
+#boutton{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+button{
+    
+    background-color: #232b2b; 
+    border: 3px solid #000000;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #000000; 
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

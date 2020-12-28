@@ -1,0 +1,37 @@
+body{
+    background-color: #232b2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+th{
+    color: white;
+    font-size: 28px;
+
+}
+
+table{
+    border-color: white;
+    margin-bottom: 30%;
+}
+
+button{
+    
+    background-color: #232b2b; 
+    border: 3px solid #000000;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    transition-duration: 0.4s;
+}
+
+button:hover{
+    background-color: #000000; 
+    color: white;
+
+}

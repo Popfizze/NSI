@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+     <head>
+         <!-- <link rel="stylesheet" href={{ url_for("static", filename="styleform.css")}}> -->
+         <link rel="stylesheet" href="styleerrors.css">
+         <meta charset="utf-8">
+         <title>Erreur</title>
+     </head>  
+       
+     <body>
+     
+         <div id="text">
+             <p>Oops... Une <strong>erreur</strong> s'est produite:</p>
+             
+             <div id="diverror">
+                 <p id="error"><strong>{{error_string}}</strong></p>
+             </div>
+         </div>
+         
+         <form action="{{redirection|safe}}" method="post">
+         
+             <div id="button">
+                 <Button type="submit" value="Retour"> Retour </button>                      
+             </div>        
+         
+         </form>
+     
+     </body>
+</html>

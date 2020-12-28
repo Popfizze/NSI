@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+     <head>
+         <link rel="stylesheet" href="styleresultat.css">
+         <meta charset="utf-8">
+         <title>Résultat</title>
+     </head>    
+     
+     <body>
+         <div id="main">
+             <div id="titre">
+                 <h1>Récapitulatif de votre saisie</h1>
+            </div>
+            
+            <div id="textre">
+                <div id="text">
+                    <p><strong> Le mot saisi est le suivant :</strong> {{mot}}</p>
+                    <p><strong> La difficultée que vous avez estimé du mot est: </strong> {{difficulte}}</p>
+                    <p><strong> Pour l'aide, vous avez décidé d'utiliser les lettres: </strong> {{lettre1}} et {{lettre2}}.</p>
+                </div>
+            
+                <div id="redirect">
+                    <div id="retour">
+                        <form action="/form" method="post">
+                             <button type="submit"> Retour au formulaire de saisie pour un autre mot </button>
+                        </form>
+                    </div>
+                    
+                    <div id="registre">
+                        <form action="/table" method="post">
+                             <button type="submit"> Ouvrir le registre des mots du fichier </button>
+                        </form>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        
+     </body>
+</html>
+
+<!-- <link rel="stylesheet" href={{ url_for("static", filename="styleform.css")}}> -->
+

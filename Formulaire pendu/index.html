@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+     <head>
+         <!---<link rel="stylesheet" href={{ url_for("static", filename="styleform.css")}}>--->
+         <link rel="stylesheet" href="styleindex.css"
+         <meta charset="utf-8">
+         <title>Index</title>
+     </head>
+
+    <body>
+        <div id="main">
+            <form action="/form" method="post">
+        
+                <div id="titre">
+                    <h1> Index </h1>
+                </div>
+                
+                <div id="text">
+                    <div id="Chemin">
+                         <label id="filePath">Saisissez le chemin (complet) du fichier à ouvrir : </label>
+                         <input type="text" name="fp"/> 
+                    </div>
+            
+                    <div id="button">
+                         <button type="submit" value="Ouvrir"> Ouvrir </button>
+                    </div> 
+                </div>
+             
+            </form>
+            
+            <div id="errorContainer">
+                <p>{{errorType}}</p>
+            </div>
+        
+        </div>
+    </body>
+</html>

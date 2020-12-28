@@ -1,0 +1,90 @@
+<!doctype html>
+ <html lang="fr">
+     <head>
+        <link rel="stylesheet" href="styleform.css">
+         <meta charset="utf-8">
+         <title>Le formulaire pour pendu</title>
+     </head>
+     
+     <body>
+         <form action="/resultat" method="post">
+                 
+                 <div class="bg-image"></div>
+                 
+                 <div id="main">
+                 
+                 <div id="titre">
+                     <h1> formulaire </h1>
+                 </div>
+                 
+                 <div id="explication">
+                         
+                     <p id="info"><strong> Ce formulaire sert à récolter des informations pour un jeu de pendu ! </strong></p>
+                
+                     <p><strong> Vous devez saisir : </strong></p> 
+                    
+                     <div id="saisis">
+                         <p> -Le mot que le joueur doit deviner </p>
+                         <p> -Une difficultée </p>
+                         <p> -Deux lettres au cas où le joueur aurait besoin d'aide </p>
+                     </div>
+                 </div>
+                 
+                 <div id="form">
+                     <div id="divmot">
+                         <label id="labelmot"><strong> Mot à enregistrer dans la base : </strong></label> 
+                         <input type="text" name="mot" /> 
+                     </div>
+                     
+                     <br>
+                    
+                     <div>
+                         <div id="dif">
+                             <label><strong> Difficulté : </strong></label> 
+                         </div>
+                             
+                         <div>
+                             <input type="checkbox" id="facile" name="difficulte" value="1"/>
+                             <label for="facile">Facile</label>
+                         </div>
+    
+                        <div>
+                            <input type="checkbox" id="moyen" name="difficulte" value="2"/>
+                            <label for="moyen">Moyen</label>
+                        </div>
+                 
+                         <div>
+                             <input type="checkbox" id="difficile" name="difficulte" value="3"/>
+                             <label for="difficile">Difficile</label>
+                         </div>     
+                    </div>
+                    
+                    <br>
+                    
+                    <div id="lettre">
+                        <label><strong> Lettres d'aide : </strong></label> <br>
+                        
+                        <div> 
+                            <label> Rang de la première lettre d'aide :</label>
+                            <input type="text" name="lettre1"/> <br>
+                        </div>
+                        
+                        <div> 
+                            <label> Rang de la deuxième lettre d'aide :</label>
+                            <input type="text" name="lettre2"/> <br>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="boutton">
+                        <button type="submit" value="Envoyer" id="envoyer"/> Envoyer </button>
+                    </div>  
+                          
+                 </div>    
+             </div>
+                 
+         </form>
+     </body>
+ </html>
+ 
+ <!-- <link rel="stylesheet" href={{ url_for("static", filename="styleform.css")}}> -->
